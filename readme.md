@@ -29,9 +29,6 @@ easily accessible through a modern RESTful API.
 ![screen-game](![mobile](https://user-images.githubusercontent.com/63321040/189497523-aac59d3f-0ecf-48f4-8b33-b636ece13910.png)
 )
 
-![screen-game](![mobile](https://user-images.githubusercontent.com/63321040/189497523-aac59d3f-0ecf-48f4-8b33-b636ece13910.png)
-)
-
 ## Technologies Used:
 
 <table>
