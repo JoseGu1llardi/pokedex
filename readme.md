@@ -32,7 +32,8 @@ easily accessible through a modern RESTful API.
 ![web](https://user-images.githubusercontent.com/63321040/189497459-24c89ff2-5492-451b-9caf-15ccac5007fe.png)
 
 
-![screen-game](https://user-images.githubusercontent.com/63321040/179844951-6892a21a-3963-4dd0-bba7-95a548a6bbcb.png)
+![screen-game](![mobile](https://user-images.githubusercontent.com/63321040/189497523-aac59d3f-0ecf-48f4-8b33-b636ece13910.png)
+)
 
 ## Technologies Used:
 
