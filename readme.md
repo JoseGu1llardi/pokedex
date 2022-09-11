@@ -5,7 +5,7 @@
 	<img height="200" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi.svg?sanitize=true" alt="PokeAPI">
     <h1>PokéGuillardi</h1>
     <p>
-        A <a href="https://pokeapi.co/">PokéApi-Wrapper</a> written in Java using HTML5, CSS3 and Javascript.x</a>
+        A <a href="https://pokeapi.co/">PokéApi-Wrapper</a> written in HTML5, CSS3 and Javascript.x</a>
     </p>
     <p>
         Maintainer: <a href="https://github.com/pascalklassen">Guillardi</a>
@@ -23,12 +23,13 @@ easily accessible through a modern RESTful API.
 
 <br>
 
+![web](https://user-images.githubusercontent.com/63321040/189497702-10cb6e33-d8d9-4489-bafa-7e461cb6bd45.png)
+
+![mobile](https://user-images.githubusercontent.com/63321040/189497727-8f287824-bb3f-41d9-9fb7-5c29258a783f.png)
+
 
 <br>
 
-![screen-login]('../../images/web.png')
-
-![screen-game](https://user-images.githubusercontent.com/63321040/179844951-6892a21a-3963-4dd0-bba7-95a548a6bbcb.png)
 
 ## Technologies Used:
 
