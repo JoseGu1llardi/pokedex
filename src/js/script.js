@@ -11,12 +11,16 @@ const btnNext = document.querySelector('.btn-next');
 let searchPokemon = 1;
 
 const fetchPokemon = async (pokemon) => {
-    const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+    try {
+        const APIResponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
 
-    if (APIResponse.status === 200) {
-        const data = await APIResponse.json();
-        return data;
-    };
+        if (APIResponse.status === 200) {
+            const data = await APIResponse.json();
+            return data;
+        }
+    } catch (error) {
+        console.error('Failed to fetch Pokémon:', error);
+    }
 };
 
 const renderPokemon = async (pokemon) => {
@@ -29,7 +33,11 @@ const renderPokemon = async (pokemon) => {
     if (data) {
         pokemonName.innerHTML = data.name;
         pokemonNumber.innerHTML = data.id;
-        pokemonImg.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+        const animatedSprite = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+        const fallbackSprite = data['sprites']['front_default'];
+
+        pokemonImg.style.display = 'block';
+        pokemonImg.src = animatedSprite || fallbackSprite;
 
         input.value = '';
         searchPokemon = data.id;
